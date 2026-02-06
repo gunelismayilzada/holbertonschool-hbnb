@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Places</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <img src="images/logo.png" class="logo" alt="Logo">
+  <a href="login.html" id="login-link" class="login-button">Login</a>
+</header>
+<nav>
+  <a href="index.html">Home</a>
+  <a href="login.html">Login</a>
+</nav>
+<main>
+  <label>Filter by price:</label>
+  <select id="price-filter">
+    <option value="All">All</option>
+    <option value="10">10</option>
+    <option value="50">50</option>
+    <option value="100">100</option>
+  </select>
+  <div id="places-list"></div>
+</main>
+<footer>
+  <p>All rights reserved.</p>
+</footer>
+<script src="scripts.js"></script>
+</body>
+</html>

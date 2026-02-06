@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Add Review</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <img src="images/logo.png" class="logo" alt="Logo">
+  <a href="login.html" class="login-button">Login</a>
+</header>
+<nav>
+  <a href="index.html">Home</a>
+  <a href="login.html">Login</a>
+</nav>
+<main>
+  <section class="add-review">
+    <form id="review-form">
+      <label>Comment</label>
+      <textarea name="comment" required></textarea>
+      <label>Rating</label>
+      <input type="number" name="rating" min="1" max="5" required>
+      <button type="submit">Submit Review</button>
+    </form>
+  </section>
+</main>
+<footer>
+  <p>All rights reserved.</p>
+</footer>
+<script src="scripts.js"></script>
+</body>
+</html>
